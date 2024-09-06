@@ -1,4 +1,4 @@
-SHRINE: Structure maximisation of High-time Resolution Intensity profiles with No-nonsense Errors
+# SHRINE: Structure maximisation of High-time Resolution Intensity profiles with No-nonsense Errors
 
 As described in Sutinjo et al. 2023: 
 
@@ -8,7 +8,7 @@ https://ui.adsabs.harvard.edu/abs/2023ApJ...954...37S/abstract
 
 ------------------------
 
-Primary code by Timothy Perrott
+# Primary code by Timothy Perrott
 
 Based on earlier code by Adrian Sutinjo, and a script originally by Danica Scott
 
@@ -18,7 +18,7 @@ Also part of CELEBI (see unified branch): https://github.com/askap-craco/CELEBI/
 
 ------------------------
 
-Requirements (listed as module load options for OzSTAR/NT; load up equivalents otherwise):
+# Requirements (listed as module load options for OzSTAR/NT; load up equivalents otherwise):
 
 java/17.0.4
 
@@ -36,15 +36,16 @@ nextflow/23.04.2
 
 ------------------------
 
-Usage
-    1. Load java/17.0.4 or run '. setup.sh'
+# Usage
+
+1. Load java/17.0.4 or run '. setup.sh'
         (nextflow should be able to handle loading python et al, but setup.sh should suffice if not)
 
-    2a. Run with './nextflow optimise_DM.nf --label <FRB label>' for a very fast, very coarse estimate over a large range
+2a. Run with './nextflow optimise_DM.nf --label <FRB label>' for a very fast, very coarse estimate over a large range
 
-    2b. Run with parameters below for finer calculations
+2b. Run with parameters below for finer calculations
 
-    3. Outputs (see below) will be under /dm_processing/output/<FRB label>/
+3. Outputs (see below) will be under /dm_processing/output/<FRB label>/
 
 Arguments
     From Command line:
