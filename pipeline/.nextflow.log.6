@@ -1,0 +1,77 @@
+Jul-05 15:00:06.714 [main] DEBUG nextflow.cli.Launcher - $> nextflow optimise_DM.nf --label 211203racs --timescale 100
+Jul-05 15:00:07.263 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.4
+Jul-05 15:00:07.279 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/mglowack/.nextflow/plugins; core-plugins: nf-amazon@1.11.2,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.5,nf-tower@1.5.6,nf-wave@0.5.2
+Jul-05 15:00:07.289 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jul-05 15:00:07.290 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jul-05 15:00:07.293 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Jul-05 15:00:07.301 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jul-05 15:00:07.316 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /fred/oz313/processing/DM_optimisation/pipeline/nextflow.config
+Jul-05 15:00:07.316 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /fred/oz313/processing/DM_optimisation/pipeline/nextflow.config
+Jul-05 15:00:07.332 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jul-05 15:00:08.356 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Jul-05 15:00:08.378 [main] INFO  nextflow.cli.CmdRun - Launching `optimise_DM.nf` [amazing_ptolemy] DSL2 - revision: a56b4b42e1
+Jul-05 15:00:08.379 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jul-05 15:00:08.379 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jul-05 15:00:08.387 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/mglowack/.nextflow/secrets/store.json
+Jul-05 15:00:08.390 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@4e83a98] - activable => nextflow.secret.LocalSecretsProvider@4e83a98
+Jul-05 15:00:08.443 [main] DEBUG nextflow.Session - Session UUID: 65debab1-5a13-459c-aa2d-eab9265b13a8
+Jul-05 15:00:08.443 [main] DEBUG nextflow.Session - Run name: amazing_ptolemy
+Jul-05 15:00:08.443 [main] DEBUG nextflow.Session - Executor pool size: 4
+Jul-05 15:00:08.452 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jul-05 15:00:08.475 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.4 build 5836
+  Created: 09-12-2022 09:58 UTC (20:58 AEDT)
+  System: Linux 5.14.0-427.20.1.el9_4.x86_64
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 11.0.20+8
+  Encoding: UTF-8 (ANSI_X3.4-1968)
+  Process: 2648621@tooarrana1 [192.168.22.31]
+  CPUs: 4 - Mem: 125.7 GB (124.9 GB) - Swap: 0 (0)
+Jul-05 15:00:08.547 [main] DEBUG nextflow.Session - Work-dir: /fred/oz313/processing/DM_optimisation/pipeline/work [lustre]
+Jul-05 15:00:08.547 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /fred/oz313/processing/DM_optimisation/pipeline/bin
+Jul-05 15:00:08.557 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jul-05 15:00:08.566 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jul-05 15:00:08.596 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jul-05 15:00:08.605 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Jul-05 15:00:11.294 [main] DEBUG nextflow.Session - Session start
+Jul-05 15:00:11.829 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jul-05 15:00:11.923 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-05 15:00:11.924 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-05 15:00:11.929 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jul-05 15:00:11.934 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=125.7 GB; capacity=4; pollInterval=100ms; dumpInterval=5m
+Jul-05 15:00:12.018 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-05 15:00:12.018 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-05 15:00:12.024 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-05 15:00:12.025 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-05 15:00:12.060 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-05 15:00:12.060 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-05 15:00:12.061 [main] DEBUG nextflow.processor.TaskProcessor - Creating *combiner* operator for each param(s) at index(es): [1]
+Jul-05 15:00:12.065 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: vary_kc, cat_summaries, minimise_uncertainty, make_summary, generate_profiles, maximise_structure, maximise_sn, compare_structure_SN
+Jul-05 15:00:12.065 [main] DEBUG nextflow.Session - Igniting dataflow network (7)
+Jul-05 15:00:12.070 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > generate_profiles
+Jul-05 15:00:12.070 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > maximise_structure
+Jul-05 15:00:12.071 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > make_summary
+Jul-05 15:00:12.074 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > cat_summaries
+Jul-05 15:00:12.083 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > cat_summaries
+Jul-05 15:00:12.083 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jul-05 15:00:12.083 [main] DEBUG nextflow.Session - Session await
+Jul-05 15:00:12.262 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-05 15:00:12.264 [Task submitter] INFO  nextflow.Session - [b6/24e869] Submitted process > make_summary
+Jul-05 15:00:12.370 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-05 15:00:12.373 [Task submitter] INFO  nextflow.Session - [d1/86c089] Submitted process > generate_profiles (1)
+Jul-05 15:00:12.444 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: make_summary; status: COMPLETED; exit: 0; error: -; workDir: /fred/oz313/processing/DM_optimisation/pipeline/work/b6/24e869e01ff8368a34531232ac37b6]
+Jul-05 15:01:40.774 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: generate_profiles (1); status: COMPLETED; exit: 0; error: -; workDir: /fred/oz313/processing/DM_optimisation/pipeline/work/d1/86c08942550ac09d0f6bb9bfd67b71]
+Jul-05 15:01:40.969 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-05 15:01:40.970 [Task submitter] INFO  nextflow.Session - [8a/1d6b60] Submitted process > maximise_structure (1)
+Jul-05 15:01:44.674 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: maximise_structure (1); status: COMPLETED; exit: 0; error: -; workDir: /fred/oz313/processing/DM_optimisation/pipeline/work/8a/1d6b6081571f4656eb4cb67c686a19]
+Jul-05 15:01:44.849 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-05 15:01:44.850 [Task submitter] INFO  nextflow.Session - [c9/78f6b5] Submitted process > cat_summaries (2)
+Jul-05 15:01:44.918 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-05 15:01:44.918 [Task submitter] INFO  nextflow.Session - [e1/fcc236] Submitted process > cat_summaries (1)
+Jul-05 15:01:45.044 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: cat_summaries (2); status: COMPLETED; exit: 0; error: -; workDir: /fred/oz313/processing/DM_optimisation/pipeline/work/c9/78f6b55909e06c822d837947fe86d3]
+Jul-05 15:01:45.080 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: cat_summaries (1); status: COMPLETED; exit: 0; error: -; workDir: /fred/oz313/processing/DM_optimisation/pipeline/work/e1/fcc236d1cc5c6c8253537e1734a8bf]
+Jul-05 15:01:45.082 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jul-05 15:01:45.083 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jul-05 15:01:45.091 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=5; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=1m 32s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
+Jul-05 15:01:45.204 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jul-05 15:01:45.247 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Jul-05 15:01:45.247 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

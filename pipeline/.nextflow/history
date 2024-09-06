@@ -1,0 +1,86 @@
+2024-01-02 14:46:09	11.4s	goofy_borg	ERR	cbc09d79cf5f37da430d40f733bba566	5087cf13-b72c-49a3-883d-07b6ad817a8a	nextflow optimise_DM.nf --label 231226
+2024-01-02 14:48:41	12.7s	tender_goodall	ERR	cbc09d79cf5f37da430d40f733bba566	27a91b0c-c22b-4b11-8662-86fd46f5cc7a	nextflow optimise_DM.nf --label 231226
+2024-01-02 14:54:37	2m 18s	desperate_carson	OK	cbc09d79cf5f37da430d40f733bba566	43482ac0-7d4d-4de7-991e-d76223543312	nextflow optimise_DM.nf --label 231226
+2024-01-02 15:03:20	2m 20s	special_varahamihira	OK	cbc09d79cf5f37da430d40f733bba566	b6bad994-4036-497a-9567-beb0ae453f35	nextflow optimise_DM.nf --label 231226 --timescale 100
+2024-01-02 15:08:41	4m 29s	tiny_ramanujan	OK	cbc09d79cf5f37da430d40f733bba566	7c13d2ba-e305-4f58-a54a-805707ba8e44	nextflow optimise_DM.nf --label 231226 --timescale 100 --dm_low -0.5 --dm_high 1.5 --dm_step 0.01
+2024-01-19 13:38:55	3m 21s	focused_hilbert	OK	cbc09d79cf5f37da430d40f733bba566	f07f0f78-ce06-4772-8565-7419aecfc52e	nextflow optimise_DM.nf --label 211127 --timescale 10
+2024-01-19 13:46:23	2m 17s	wise_torvalds	OK	cbc09d79cf5f37da430d40f733bba566	52271160-aa2e-4197-9fd7-6cbf407d13f0	nextflow optimise_DM.nf --label 211127 --timescale 10 --dm_low 0 --dm_high 8
+2024-01-19 13:49:10	4m 42s	thirsty_babbage	OK	cbc09d79cf5f37da430d40f733bba566	1eb66c54-6035-482d-beaf-a959af2fe3d7	nextflow optimise_DM.nf --label 211127 --timescale 10 --dm_low 0 --dm_high 20
+2024-01-19 13:55:53	4m 39s	nauseous_ekeblad	OK	cbc09d79cf5f37da430d40f733bba566	16dc1dc2-5e44-46ad-93da-acff8e40e98d	nextflow optimise_DM.nf --label 211127 --timescale 10 --dm_low 7.5 --dm_high 9.5 --dm_step 0.01
+2024-02-04 14:36:12	2m 34s	admiring_leavitt	OK	cbc09d79cf5f37da430d40f733bba566	5d427d3d-a805-4dfb-80a4-a63ff14dae17	nextflow optimise_DM.nf --label 240201 --timescale 30
+2024-02-04 14:40:38	35m 15s	big_torvalds	ERR	cbc09d79cf5f37da430d40f733bba566	2edcdd8f-224d-47dc-b576-14032388aeec	nextflow optimise_DM.nf --label 240201 --dm_low 2 --dm_high 4 --dm_step 0.001 --timescale 30
+2024-02-04 15:16:05	20m 30s	cheesy_cori	OK	cbc09d79cf5f37da430d40f733bba566	42840b89-ddb2-4edc-850e-792e329d5ffd	nextflow optimise_DM.nf --label 240201 --dm_low 2.5 --dm_high 3.5 --dm_step 0.001 --timescale 30
+2024-02-05 22:56:38	2m 39s	big_heyrovsky	OK	cbc09d79cf5f37da430d40f733bba566	1dc0ad28-05fd-4411-afe3-4ff8512bd48a	nextflow optimise_DM.nf --label 240201a --timescale 30
+2024-02-05 23:02:35	20m 17s	spontaneous_allen	OK	cbc09d79cf5f37da430d40f733bba566	cf45f197-368f-4e5e-9508-524f549198af	nextflow optimise_DM.nf --label 240201a --dm_low -2.0 --dm_high -1.0 --dm_step 0.001 --timescale 30
+2024-02-11 21:59:34	11m 5s	deadly_cuvier	OK	cbc09d79cf5f37da430d40f733bba566	f4b7ee82-e968-4506-8a5e-c7f63ffd4fd7	nextflow optimise_DM.nf --label 231226 --dm_low -5 --dm_high 0 --dm_step 0.01 --timescale 30
+2024-02-11 22:15:05	20m 48s	awesome_williams	OK	cbc09d79cf5f37da430d40f733bba566	fd9e0fda-3136-475f-b419-0bfb34f9d02c	nextflow optimise_DM.nf --label 231226 --dm_low -1.8 --dm_high -0.8 --dm_step 0.001 --timescale 30
+2024-02-13 13:45:52	1m 37s	evil_dijkstra	OK	cbc09d79cf5f37da430d40f733bba566	5eaa017d-3c9b-474d-a931-dde463479a6d	nextflow optimise_DM.nf --label 240210 --dm_low 0 --dm_high 5 --timescale 10
+2024-02-13 13:49:01	10m 14s	adoring_ride	OK	cbc09d79cf5f37da430d40f733bba566	f6f22fc4-4ae6-4240-8c5c-04a708e9f02e	nextflow optimise_DM.nf --label 240210 --dm_low 0 --dm_high 0.5 --dm_step 0.001 --timescale 10
+2024-03-01 17:12:31	14.8s	extravagant_wescoff	ERR	cbc09d79cf5f37da430d40f733bba566	2b09b4b5-5492-4736-a4cf-c078d83e7217	nextflow optimise_DM.nf --label 190102 --dm_low 2.0 --dm_high 2.0 --dm_step 0.01 --timescale 3
+2024-03-01 17:13:43	10.5s	desperate_pike	ERR	cbc09d79cf5f37da430d40f733bba566	3cb34816-ea8b-45c2-82de-f4ab731279fb	nextflow optimise_DM.nf --label 190102 --dm_low 2.0 --dm_high 2.0 --dm_step 0.05 --timescale 3
+2024-03-01 17:14:22	4m 32s	compassionate_monod	OK	cbc09d79cf5f37da430d40f733bba566	ee912e73-e95c-4ce8-936f-7a7e18d9baf6	nextflow optimise_DM.nf --label 190102 --dm_low -1.0 --dm_high 1.0 --dm_step 0.01 --timescale 3
+2024-03-01 17:33:10	4m 47s	gigantic_kowalevski	OK	cbc09d79cf5f37da430d40f733bba566	124a000b-6fea-420e-8659-8f75aa00c62f	nextflow optimise_DM.nf --label 190102 --dm_low -0.1 --dm_high 0.1 --dm_step 0.001 --timescale 3
+2024-03-13 12:46:42	4m 39s	determined_planck	OK	cbc09d79cf5f37da430d40f733bba566	865d1ecc-4e76-4c9e-a412-600f113e7622	nextflow optimise_DM.nf --label 240310 --dm_low -1.0 --dm_high 1.0 --dm_step 0.01 --timescale 100
+2024-03-13 13:56:08	7m 5s	compassionate_angela	ERR	cbc09d79cf5f37da430d40f733bba566	23aaea89-ffe6-4015-876d-0172067701ba	nextflow optimise_DM.nf --label 240310 --dm_low -5.0 --dm_high 5.0 --dm_step 0.01 --timescale 100
+2024-03-13 14:03:20	21m 54s	wise_goldberg	OK	cbc09d79cf5f37da430d40f733bba566	27bb37e1-2e26-4d65-b74a-31e59ed24d4a	nextflow optimise_DM.nf --label 240310 --dm_low -5.0 --dm_high 5.0 --dm_step 0.01 --timescale 100
+2024-04-29 13:03:53	14.9s	dreamy_wozniak	ERR	cbc09d79cf5f37da430d40f733bba566	87b79993-b08a-44c1-b0e7-15809ca87cf7	nextflow optimise_DM.nf --label 190611.2 --timescale 10
+2024-04-29 13:18:01	9.3s	intergalactic_fermat	ERR	cbc09d79cf5f37da430d40f733bba566	541d7994-a07d-4e58-bf96-b9749981ff26	nextflow optimise_DM.nf --label 190611.2 --timescale 10 --I /fred/oz313/processing/output/190611.2/htr//190611.2_calib_I_dynspec_322.7.npy
+2024-04-29 13:22:53	2m 34s	clever_wilson	OK	a56b4b42e1c7c91ac9ce9d100139c025	d8470f05-949c-4215-9e71-b383e08df3a3	nextflow optimise_DM.nf --label 190611.2 --timescale 10
+2024-04-30 00:41:25	2m 53s	clever_celsius	OK	a56b4b42e1c7c91ac9ce9d100139c025	4f188b5c-a4cb-4ac1-b78b-f70826116efd	nextflow optimise_DM.nf --label 190611.2 --timescale 10
+2024-04-30 01:34:44	13m 37s	marvelous_hamilton	ERR	a56b4b42e1c7c91ac9ce9d100139c025	0a4d5193-2a97-4769-8077-00438e34d415	nextflow optimise_DM.nf --label 190611.2 --timescale 10 --dm_low -2.5 --dm_high -1.5 --dm_step 0.001
+2024-04-30 18:05:03	3m 14s	small_galileo	ERR	a56b4b42e1c7c91ac9ce9d100139c025	68e12c61-451f-4865-9887-c9f2ecaf2434	nextflow optimise_DM.nf --label 190611.2 --timescale 10
+2024-04-30 18:09:31	20m 42s	reverent_pauling	OK	a56b4b42e1c7c91ac9ce9d100139c025	dc41c830-1ce6-40b5-9056-2f67914f7b02	nextflow optimise_DM.nf --label 190611.2 --timescale 10 --dm_low -2.5 --dm_high -1.5 --dm_step 0.001
+2024-05-03 13:48:58	17.4s	golden_dalembert	ERR	a56b4b42e1c7c91ac9ce9d100139c025	e2d48f2d-e061-4880-a11d-f94a64b838c1	nextflow optimise_DM.nf --label 190611.2 --timescale 10’ ':' Here the timescale is 10 microseconds
+2024-05-03 13:49:30	2m 32s	boring_morse	OK	a56b4b42e1c7c91ac9ce9d100139c025	ed9312da-ca6d-4cc7-8367-87a04f498f9a	nextflow optimise_DM.nf --label 190611.2 --timescale 10
+2024-05-03 13:54:24	19m 16s	marvelous_montalcini	OK	a56b4b42e1c7c91ac9ce9d100139c025	204c616c-9d3b-42bf-bcae-59480dfc6ce8	nextflow optimise_DM.nf --label 190611.2 --timescale 10 --dm_low -0.5 --dm_high 0.5 --dm_step 0.001
+2024-05-04 23:04:15	2m 34s	sad_blackwell	OK	a56b4b42e1c7c91ac9ce9d100139c025	32f9937f-0595-4d4e-bd94-6feebbfe709e	nextflow optimise_DM.nf --label 190611.2 --timescale 10
+2024-05-04 23:10:46	18m 43s	fabulous_gutenberg	OK	a56b4b42e1c7c91ac9ce9d100139c025	98ca7ee4-f050-496f-b2c7-cd12c7be1fa1	nextflow optimise_DM.nf --label 190611.2 --timescale 10 --dm_low -0.5 --dm_high 0.5 --dm_step 0.001
+2024-05-06 15:37:17	3m 43s	spontaneous_wiles	OK	a56b4b42e1c7c91ac9ce9d100139c025	1825ffbe-8863-4df6-b3d0-819d3a995f90	nextflow optimise_DM.nf --label 221106 --timescale 10
+2024-05-06 16:26:12	16m 5s	high_meitner	OK	a56b4b42e1c7c91ac9ce9d100139c025	9d966ac9-3066-4589-8afa-a959d72b5c73	nextflow optimise_DM.nf --label 221106 --timescale 10 --dm_low -0.4 --dm_high 0.2 --dm_step 0.001
+2024-05-24 23:44:57	6m 11s	jolly_turing	ERR	a56b4b42e1c7c91ac9ce9d100139c025	428239cd-7490-455c-bfd7-15270b6d619b	nextflow optimise_DM.nf --label 190611.2 --timescale 10
+2024-06-05 16:30:36	6.9s	sad_swirles	ERR	a56b4b42e1c7c91ac9ce9d100139c025	8abac742-93cb-403e-9a93-98d62a2e4af4	nextflow optimise_DM.nf --label 240310 --timescale 100
+2024-06-05 16:38:52	1m 27s	chaotic_wilson	OK	a56b4b42e1c7c91ac9ce9d100139c025	52c06033-000d-453d-8064-ca31b0134224	nextflow optimise_DM.nf --label 240310ra --timescale 100
+2024-06-05 16:44:34	11m 15s	thirsty_swartz	OK	a56b4b42e1c7c91ac9ce9d100139c025	d9a1f46b-af39-46e9-b3fc-867f3c291787	nextflow optimise_DM.nf --label 240310ra --timescale 100 --dm_low 0 --dm_high 1 --dm_step 0.001
+2024-06-06 10:57:05	1m 17s	serene_tuckerman	OK	a56b4b42e1c7c91ac9ce9d100139c025	e3072018-4366-4dcd-a399-5b10f06cce2f	nextflow optimise_DM.nf --label 240310ra --timescale 100
+2024-06-06 11:01:15	1m 19s	nostalgic_bose	OK	a56b4b42e1c7c91ac9ce9d100139c025	83115470-eec6-4fe6-86c5-54f49b6b970b	nextflow optimise_DM.nf --label 240310ra --timescale 100
+2024-06-06 23:32:00	1m 18s	cheesy_sinoussi	OK	a56b4b42e1c7c91ac9ce9d100139c025	ed5c1b8f-fb2a-468a-8d60-145c013851b1	nextflow optimise_DM.nf --label 231226ra --timescale 30
+2024-06-08 14:04:26	1m 25s	sleepy_rosalind	OK	a56b4b42e1c7c91ac9ce9d100139c025	d70e684f-4bfa-4c35-b2b2-c4ffca802fea	nextflow optimise_DM.nf --label 220610 --timescale 10
+2024-06-13 11:34:31	2m 30s	astonishing_solvay	OK	a56b4b42e1c7c91ac9ce9d100139c025	d80fdcba-16f5-4e32-a70b-6523780396d1	nextflow optimise_DM.nf --label 210117 --timescale 10
+2024-06-13 11:39:52	18m 46s	marvelous_fourier	OK	a56b4b42e1c7c91ac9ce9d100139c025	7fd04e4c-d621-4f0d-bb22-9a3582eded40	nextflow optimise_DM.nf --label 210117 --timescale 10 --dm_low -0.5 --dm_high 0.5 --dm_step 0.001
+2024-06-13 13:00:03	2m 27s	agitated_marconi	OK	a56b4b42e1c7c91ac9ce9d100139c025	ffbe5070-fa31-493e-a7c3-22c3447d57b9	nextflow optimise_DM.nf --label 210320 --timescale 10
+2024-06-13 17:25:26	2m 26s	zen_snyder	OK	a56b4b42e1c7c91ac9ce9d100139c025	742f3323-2f99-43dd-be0b-4d6a77e5ce64	nextflow optimise_DM.nf --label 210117 --timescale 10
+2024-06-18 12:54:55	1m 42s	boring_archimedes	OK	a56b4b42e1c7c91ac9ce9d100139c025	ff2033c3-3f45-4e63-8b49-6885e429277a	nextflow optimise_DM.nf --label 220105 --timescale 10
+2024-06-18 13:00:42	9m 23s	nasty_fourier	OK	a56b4b42e1c7c91ac9ce9d100139c025	792c5c6e-f734-4f83-903f-302d2ff12797	nextflow optimise_DM.nf --label 220105 --timescale 10 --dm_low -0.2 --dm_high 0.7 --dm_step 0.001
+2024-06-25 13:41:30	1m 16s	distracted_meitner	OK	a56b4b42e1c7c91ac9ce9d100139c025	32c5f9ab-1243-4e70-97fc-19efb3c65acc	nextflow optimise_DM.nf --label 200430 --timescale 30
+2024-06-25 13:46:57	13m 10s	insane_lumiere	OK	a56b4b42e1c7c91ac9ce9d100139c025	f9f84049-560c-43fb-84e0-d0f9d0746200	nextflow optimise_DM.nf --label 200430 --timescale 30 --dm_low -0.8 --dm_high 0.2 --dm_step 0.001
+2024-06-25 20:43:34	1m 17s	festering_wing	OK	a56b4b42e1c7c91ac9ce9d100139c025	cb13da6d-1e46-47e3-bd90-9cd83d781dad	nextflow optimise_DM.nf --label 200430 --timescale 30
+2024-06-25 21:01:54	1m 18s	voluminous_leavitt	OK	a56b4b42e1c7c91ac9ce9d100139c025	c17b14c8-c098-412e-9ae5-6932af1d1dab	nextflow optimise_DM.nf --label 191001 --timescale 30
+2024-06-25 21:05:19	10m 27s	gigantic_cuvier	OK	a56b4b42e1c7c91ac9ce9d100139c025	c9d8a999-06cb-4199-a970-df5b768df70a	nextflow optimise_DM.nf --label 191001 --timescale 30 --dm_low -0.5 --dm_high 0.5 --dm_step 0.001
+2024-06-25 21:19:50	-	exotic_shirley	-	a56b4b42e1c7c91ac9ce9d100139c025	60d3c822-7544-4f84-a619-4deff7c634e5	nextflow optimise_DM.nf --label 191001 --timescale 30
+2024-06-25 21:20:36	1m 12s	gigantic_watson	OK	a56b4b42e1c7c91ac9ce9d100139c025	ee80a2ce-19b1-4d79-a1b2-715b19eac86f	nextflow optimise_DM.nf --label 191001 --timescale 30
+2024-06-28 19:15:44	2m 41s	focused_majorana	OK	a56b4b42e1c7c91ac9ce9d100139c025	5cf7d8b4-a665-43fc-a400-604672d68584	nextflow optimise_DM.nf --label 240318ra --timescale 1
+2024-06-28 19:20:29	39.3s	amazing_kalman	OK	a56b4b42e1c7c91ac9ce9d100139c025	9d8f1941-2c77-440d-9b59-df008656831d	nextflow optimise_DM.nf --label 240318ra --dm_low 4 dm_high 8 --timescale 1
+2024-06-28 19:22:43	6m 25s	naughty_snyder	OK	a56b4b42e1c7c91ac9ce9d100139c025	e7b5607c-d61e-4183-8d4f-46fbaf829a7e	nextflow optimise_DM.nf --label 240318ra --dm_low 4.5 dm_high 5.5 --dm_step 0.001 --timescale 1
+2024-06-28 19:41:24	5.8s	soggy_chandrasekhar	ERR	a56b4b42e1c7c91ac9ce9d100139c025	8adc9372-966e-47cc-b700-7b71614cbdfb	nextflow optimise_DM.nf --label 240318ra --dm_low 4.5 dm_high 5.5 --dm_step 0.001 --timescale 3
+2024-06-28 19:43:49	6m	awesome_sanger	OK	a56b4b42e1c7c91ac9ce9d100139c025	81ddc77b-ec83-4ec0-b4b3-2ffb174eb20b	nextflow optimise_DM.nf --label 240318ra --dm_low 4.5 dm_high 5.5 --dm_step 0.001 --timescale 3
+2024-06-29 02:29:30	1m 18s	stoic_volta	OK	a56b4b42e1c7c91ac9ce9d100139c025	3143b583-8f45-4539-a1a2-4b4ee84b7f55	nextflow optimise_DM.nf --label 240318ra --timescale 3
+2024-06-29 02:33:21	38m 49s	cheesy_mirzakhani	ERR	a56b4b42e1c7c91ac9ce9d100139c025	1526137b-d5dd-4f74-9b23-4b1c661b785c	nextflow optimise_DM.nf --label 240318ra --dm_low 0.7 dm_high 1.7 --dm_step 0.001 --timescale 3
+2024-06-29 13:34:21	45m 45s	kickass_ekeblad	OK	a56b4b42e1c7c91ac9ce9d100139c025	726a92c9-5088-46b9-a966-f2c8a11535f1	nextflow optimise_DM.nf --label 240318ra --dm_low 0.7 dm_high 1.7 --dm_step 0.001 --timescale 3
+2024-06-29 23:01:23	1m 18s	cheeky_roentgen	OK	a56b4b42e1c7c91ac9ce9d100139c025	71073059-c71c-418d-a006-9e2b836dfaf6	nextflow optimise_DM.nf --label 240318ra --timescale 3
+2024-07-04 21:10:02	1m 30s	sharp_morse	OK	a56b4b42e1c7c91ac9ce9d100139c025	2c40340c-8d19-42ee-907f-5b28868ecad6	nextflow optimise_DM.nf --label 220725racs --timescale 30
+2024-07-04 22:33:25	1m 27s	berserk_mclean	OK	a56b4b42e1c7c91ac9ce9d100139c025	03ab1672-0e04-407e-b1c9-8d6384ff30bf	nextflow optimise_DM.nf --label 240525td --timescale 20
+2024-07-04 22:39:21	1m 29s	sharp_roentgen	OK	a56b4b42e1c7c91ac9ce9d100139c025	b0145e90-adea-4571-98a6-501b9891e484	nextflow optimise_DM.nf --label 191001 --timescale 10
+2024-07-04 22:59:00	1m 27s	fabulous_mestorf	OK	a56b4b42e1c7c91ac9ce9d100139c025	c0164ee4-c64b-491a-8634-c49c717a4873	nextflow optimise_DM.nf --label 240208 --timescale 30
+2024-07-04 23:04:42	44m 31s	grave_jang	ERR	a56b4b42e1c7c91ac9ce9d100139c025	7b408d81-ca4a-4e0b-9537-472b89a954a5	nextflow optimise_DM.nf --label 240208 --dm_low -0.5 dm_high 0.5 --dm_step 0.001 --timescale 30
+2024-07-04 23:55:57	54m 36s	jolly_volta	OK	a56b4b42e1c7c91ac9ce9d100139c025	77d3c965-72f5-480b-a434-85d88f7c6366	nextflow optimise_DM.nf --label 240208 --dm_low -0.3 dm_high 0.3 --dm_step 0.001 --timescale 30
+2024-07-05 01:19:08	6m 47s	magical_mahavira	OK	a56b4b42e1c7c91ac9ce9d100139c025	2df1953d-4b3b-4a01-a059-53150c1dd926	nextflow optimise_DM.nf --label 240208 --dm_low -0.3 --dm_high 0.3 --dm_step 0.001 --timescale 30
+2024-07-05 01:39:30	1m 21s	fabulous_hoover	OK	a56b4b42e1c7c91ac9ce9d100139c025	273f8c5e-e909-4e04-af06-065d7923beb4	nextflow optimise_DM.nf --label 240201racs --timescale 10
+2024-07-05 01:45:56	1m 29s	distracted_dijkstra	OK	a56b4b42e1c7c91ac9ce9d100139c025	fb03e209-bede-43f8-987b-ad401dc848c0	nextflow optimise_DM.nf --label 230902td --timescale 3
+2024-07-05 13:03:08	10s	furious_monod	ERR	a56b4b42e1c7c91ac9ce9d100139c025	0d4bab4c-7b41-4d32-b6b5-2b305c681ed9	nextflow optimise_DM.nf --label 230731td --timescale 5
+2024-07-05 15:00:08	1m 37s	amazing_ptolemy	OK	a56b4b42e1c7c91ac9ce9d100139c025	65debab1-5a13-459c-aa2d-eab9265b13a8	nextflow optimise_DM.nf --label 211203racs --timescale 100
+2024-07-09 13:35:40	1m 45s	ecstatic_easley	OK	a56b4b42e1c7c91ac9ce9d100139c025	52561365-d3ff-4693-8c4e-f820194a0d51	nextflow optimise_DM.nf --label 230718td --timescale 5
+2024-07-09 13:38:24	4m 55s	nostalgic_cajal	OK	a56b4b42e1c7c91ac9ce9d100139c025	2ae2d717-ff85-4176-8025-06e17363c1ff	nextflow optimise_DM.nf --label 230718td --timescale 5 --dm_low -0.1 --dm_high 0.1 --dm_step 0.001
+2024-07-09 13:51:05	2m 4s	lonely_baekeland	OK	a56b4b42e1c7c91ac9ce9d100139c025	04f86b18-a0ba-4ced-a364-d6632e3d36f6	nextflow optimise_DM.nf --label 230708td --timescale 5
+2024-07-09 13:55:25	2m 45s	thirsty_moriondo	OK	a56b4b42e1c7c91ac9ce9d100139c025	7571b4c0-537f-4612-b813-39c7b60ce995	nextflow optimise_DM.nf --label 230708td --timescale 5 --dm_low -0.1 --dm_high 0.1 --dm_step 0.001
+2024-07-09 14:25:36	3m 21s	prickly_knuth	OK	a56b4b42e1c7c91ac9ce9d100139c025	e9e0c938-26af-4a24-96a8-33f8c02d4b33	nextflow optimise_DM.nf --label 210912td --timescale 1 --dm_low -0.1 --dm_high 0.1 --dm_step 0.001
+2024-08-04 22:54:51	11m 40s	cranky_lavoisier	OK	a56b4b42e1c7c91ac9ce9d100139c025	aa0e424f-d6cd-4873-9907-f155f2f5622f	nextflow optimise_DM.nf --label 220105 --dm_step 0.01 --timescale 50
