@@ -12,17 +12,14 @@ https://ui.adsabs.harvard.edu/abs/2023ApJ...954...37S/abstract
 
 Based on earlier code by Adrian Sutinjo, and a script originally by Danica Scott
 
-Some additions by Apurba Bera and Marcin Glowacki
+Some additions by Apurba Bera and Marcin Glowacki. Setup files by Clancy James.
 
 Also part of CELEBI (see unified branch): https://github.com/askap-craco/CELEBI/tree/main
+This version is intended to be used as a stand-alone package.
 
 ------------------------
 
 # Requirements (listed as module load options for OzSTAR/NT; load up equivalents otherwise):
-
-java/17.0.4
-
-gcc/11.3.0 openmpi/4.1.4
 
 python/3.10.4
 
@@ -32,11 +29,20 @@ matplotlib/3.5.2
 
 scipy/1.8.1-scipy-bundle-2022.05
 
+# Files required for the CELEBI implementation:
+
 nextflow/23.04.2
 
+java/17.0.4
+
+gcc/11.3.0 openmpi/4.1.4
+
+# Other python (not necessarily module load commands):
+
+extension_helpers/0.1
 ------------------------
 
-# Usage
+# Usage (nextflow)
 
 1. Load java/17.0.4 or run '. setup.sh'
         (nextflow should be able to handle loading python et al, but setup.sh should suffice if not)
